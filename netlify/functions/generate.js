@@ -11,7 +11,7 @@
 // Được gọi từ trình duyệt qua route /api/generate, redirect sang
 // /.netlify/functions/generate theo cấu hình trong netlify.toml.
 
-const GEMINI_MODEL = 'gemini-2.5-flash-lite';
+const GEMINI_MODEL = 'gemini-2.0-flash';
 const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent`;
 
 // Giáo án dài & chi tiết hơn cần nhiều token đầu ra hơn hẳn mức mặc định.
